@@ -20,4 +20,13 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = 'App'
+mainClassName = 'com.ihiroky.App'
+
+jmh {
+  iterations = 10
+  batchSize = 1
+  warmupIterations = 2
+  warmupBatchSize = 1
+  threads = 1
+  fork = 3
+}
