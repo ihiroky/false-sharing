@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FalseSharing",
+            "request": "launch",
+            "mainClass": "com.ihiroky.FalseSharing",
+            "projectName": "false-sharing"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "com.ihiroky.App",
+            "projectName": "false-sharing"
+        }
+    ]
+}
